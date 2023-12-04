@@ -168,6 +168,7 @@ ostream& operator<<(ostream& out, const pitch_t& p) {
 		case Ab: out << "Ab"; break;
 
 		default: out << "R"; break;
+		//PAOK
 	}
 	return out;
 }
